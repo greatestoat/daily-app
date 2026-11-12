@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { min-height: 100%; }
+body { @apply bg-neutral-200 font-sans text-neutral-900 antialiased; }
+.app-shell { @apply mx-auto min-h-screen w-full max-w-md bg-white relative sm:shadow-xl; }
+input, textarea, button { font-family: inherit; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
